@@ -25,9 +25,6 @@ function Home() {
   return (
     <>
     <div>
-      {/* <h1>Dashboard</h1>
-      <p>{user.email}</p>
-      <img src={user.photoURL} width={50} /> */}
       <Sidebar user={user} />
     </div>
     </>
