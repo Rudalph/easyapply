@@ -11,6 +11,7 @@
   "dependencies": {
     "@xenova/transformers": "^2.17.2",
     "firebase": "^12.7.0",
+    "linkedin-jobs-scraper": "^11.1.0",
     "lucide-react": "^0.562.0",
     "next": "16.1.1",
     "pdfjs-dist": "^5.4.530",

@@ -3,8 +3,8 @@
 import React, { useState } from 'react';
 import { Home, Search, Library, PlusSquare, Heart, User, Settings, Menu, X } from 'lucide-react';
 import Profile from '@/app/profile/page'
-import Logout from "@/app/logout/page"
 import SettingsPage from "@/app/settings/page"
+import JobsPage from '@/app/jobs/page';
 
 const Sidebar = ({ user }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -36,7 +36,7 @@ const Sidebar = ({ user }) => {
     //   case 'Favorites': return <Favorites />;
       case 'Profile': return <Profile />;
       case 'Settings': return <SettingsPage />;
-      default: return <Logout />;
+      default: return <JobsPage />;
     }
   };
 
