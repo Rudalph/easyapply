@@ -1,10 +1,10 @@
-import {Montserrat} from "next/font/google";
+import { Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import { AuthProvider } from '@/app/components/AuthProvider'
 
 
-const montserrat = Montserrat({
-  variable: "--font-montserrat",
+const montserrat = Space_Grotesk({
+  variable: "--font-space_grotesk",
   subsets: ["latin"],
 });
 
